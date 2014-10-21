@@ -72,20 +72,81 @@
           <img src="img/zelda.jpg" width="700">
         </section>
 
-        <section data-background="img/bg04.png" class="futurice-front1">
-          <h2>Your headline</h2>
+        <section data-background="img/bg02.png" class="futurice-front1" style="text-align:center;" data-transition="none">
+          <h4>Duality of inter-module communication</h4>
+          <img class="fragment" src="img/modules1.png" width="600">
+          <span style="background: rgb(255,240,70);color: rgb(33,15,0);padding: 0.2em 0.2em 0; visibility:hidden;line-height: 1em;vertical-align: initial;display: inline-block;position: absolute;left: 9rem;top: 10rem;font-size: 1.2em;transform: rotate(-22deg);">nothing</span>
         </section>
 
-        <section data-background="img/bg05.png" class="futurice-front1">
-          <h2 style="color:white">Your headline</h2>
+        <section data-background="img/bg02.png" class="futurice-front1" style="text-align:center;" data-transition="none">
+          <h4>X defines which other components does X affect</h4>
+          <img src="img/modules2.png" width="600">
+          <span class="fragment" style="background: rgb(255,240,70);color: rgb(33,15,0);padding: 0.2em 0.2em 0;line-height: 1em;vertical-align: initial;display: inline-block;position: absolute;left: 9rem;top: 10rem;font-size: 2em;transform: rotate(-22deg);">Interactive</span>
         </section>
 
-        <section data-background="img/bg06.png" class="futurice-front1">
-          <h2 style="color:white">Your headline</h2>
+        <section data-background="img/bg02.png" class="futurice-front1" style="text-align:center;" data-transition="none">
+          <h4>X defines which other components affect X</h4>
+          <img src="img/modules3.png" width="600">
+          <span class="fragment" style="background: rgb(255,240,70);color: rgb(33,15,0);padding: 0.2em 0.2em 0;line-height: 1em;vertical-align: initial;display: inline-block;position: absolute;left: 9rem;top: 10rem;font-size: 2em;transform: rotate(-22deg);">Reactive</span>
         </section>
 
-        <section data-background="img/bg07.png" class="futurice-front1">
-          <h2>Your headline</h2>
+        <section data-background="img/bg08.png" class="futurice-front1">
+          <h3 style="color:white">How to implement Reactive components?</h3>
+          <ul style="color:white">
+            <li class="fragment">Event bus! No need for RxJS.</li>
+            <li class="fragment">What if event bus X is event bus Y delayed by 1 second?</li>
+            <li class="fragment">Higher-order functions over event buses?</li>
+            <li class="fragment">RxJS! :)</li>
+          </ul>
+        </section>
+
+        <section data-background="img/bg06.png" class="futurice-front1" style="text-align:center;" data-transition="none">
+          <h2 style="color:white">Model-View-Intent</h2>
+          <img class="fragment" src="img/mvi1.png">
+        </section>
+
+        <section data-background="img/bg06.png" class="futurice-front1" style="text-align:center;" data-transition="none">
+          <h2 style="color:white">Model-View-Intent</h2>
+          <img src="img/mvi2.png">
+        </section>
+
+        <section data-background="img/bg02.png" class="futurice-front1">
+          <h2>Model</h2>
+          <p><em>Input:</em></p>
+          <ul><li>Observable of user interaction intents</li></ul>
+          <p><em>Output:</em></p>
+          <ul><li>Observable of data/state</li></ul>
+        </section>
+
+        <section data-background="img/bg02.png" class="futurice-front1">
+          <h2>View</h2>
+          <p><em>Input:</em></p>
+          <ul><li>Observable of data/state</li></ul>
+          <p><em>Output:</em></p>
+          <ul>
+            <li>
+              Observable of VTree
+            </li>
+            <li>
+              Observable of raw user inputs
+            </li>
+          </ul>
+        </section>
+
+        <section data-background="img/bg02.png" class="futurice-front1">
+          <h2>Intent</h2>
+          <p><em>Input:</em></p>
+          <ul><li>Observable of raw user inputs</li></ul>
+          <p><em>Output:</em></p>
+          <ul><li>Observables of interpreted user inputs<br />(translates what the user is intending to do)</li></ul>
+        </section>
+
+        <section data-background="img/bg02.png" class="futurice-front1" style="text-align:center;">
+          <img src="img/renderer.png">
+        </section>
+
+        <section data-background="img/bg02.png" class="futurice-front1" style="text-align:center;">
+          <h3>Shou me some codez</h3>
         </section>
 
         <section data-background="img/bg08.png" class="futurice-front1">
