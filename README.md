@@ -1,4 +1,5 @@
-Futurice Reveal.js template
-===========================
+Model-View-Intent and the Virtual DOM
+=====================================
 
-According to the new branding guidelines.
+[Click here](http://staltz.com/mvi-freaklies) to view the presentation.
+
